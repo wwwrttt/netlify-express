@@ -4,6 +4,7 @@
     "description": "Example of how to deploy a Express.js Netlify app.",
     "main": "functions/server.js",
     "scripts": {
+        "build": "netlify build",
         "start": "netlify dev"
     },
     "repository": {
@@ -23,6 +24,7 @@
     "devDependencies": {
         "body-parser": "^1.19.0",
         "express": "^4.17.1",
+        "netlify-cli": "^13.1.2",
         "serverless-http": "^2.3.0"
     }
 }
