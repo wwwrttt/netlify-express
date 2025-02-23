@@ -7,6 +7,7 @@ const recipeRouter = require('./recipeRouter')
 
 const app = express();
 const router = express.Router();
+
 router.get('/', (req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/html' });
     res.write('<h1>You are now running the root function</h1>');
