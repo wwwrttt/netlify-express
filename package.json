@@ -24,7 +24,13 @@
     "devDependencies": {
         "body-parser": "^1.19.0",
         "express": "^4.17.1",
-        "netlify-cli": "^13.1.2",
+        "netlify-cli": "^18.1.0",
         "serverless-http": "^2.3.0"
-    }
+    },
+    "dependencies": {
+        "mongoose": "^8.10.1",
+        "to": "^0.2.9",
+        "update": "^0.7.4"
+    },
+    "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d"
 }
