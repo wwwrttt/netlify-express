@@ -10,9 +10,7 @@ const MONGODB_URI = process.env.MONGODB_URI;
 const mongoConnect = async () => {
     try {
         if (mongoose.connection.readyState !== 1) {
-            await mongoose.connect(TEST_URI, {
-                useNewUrlParser: true
-            });
+            await mongoose.connect(TEST_URI, {});
             console.log('MongoDB connected successfully');
         }
     } catch (error) {
